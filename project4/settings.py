@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["harvardcs50-socialnetworkingapp-production.up.railway.app"]
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
