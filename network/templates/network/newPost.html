@@ -1,0 +1,16 @@
+{% extends "network/layout.html" %}
+
+{% block body %}
+    {% if user.is_authenticated %}
+            <h2 class="d-flex justify-content-center">New Post</h2>
+            <div class="d-flex justify-content-center my-3 mx-5"> 
+                <form action="{% url 'newPost' %}" method="post">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <textarea class="form-control" name="content" id="exampleFormControlTextarea1" rows="10" cols="100"></textarea></div>
+                        <input type="submit" value="Post" class="btn btn-primary mt-1" />
+                    </div>
+                </form>
+            </div>
+        {% endif %}
+{% endblock %}
