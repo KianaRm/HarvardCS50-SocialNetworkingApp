@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["harvardcs50-socialnetworkingapp-production.up.railway.app"]
 
 CSRF_TRUSTED_ORIGINS = [
-       "https://harvardcs50-commerce-production.up.railway.app",
+       "https://harvardcs50-socialnetworkingapp-production.up.railway.app",
 ]
 
 # Application definition
