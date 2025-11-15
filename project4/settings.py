@@ -27,7 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["harvardcs50-socialnetworkingapp-production.up.railway.app"]
 
-
+CSRF_TRUSTED_ORIGINS = [
+    "harvardcs50-socialnetworkingapp-production.up.railway.app",
+]
 
 # Application definition
 
